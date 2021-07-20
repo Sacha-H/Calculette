@@ -1,0 +1,109 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: solid black 10px;
+  background-color: #96b7aa;
+  border-radius: 10px;
+}
+
+h1 {
+  padding: 20px;
+  height: 100px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Roboto';
+}
+
+form {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+input {
+  width: 200px;
+  margin: 10px;
+  background-color: #d6e6dc;
+  font-family: 'VT323';
+  font-size: 4em;
+}
+
+select {
+  width: 100px;
+  background-color: #d6e6dc;
+  font-family: 'VT323';
+  font-size: 4em;
+}
+
+.submit {
+  background-color: red;
+  width: 80%;
+  font-family: 'Roboto';
+}
+
+h2 {
+  padding-top: 10px;
+  width: 100%;
+  border: black 1px solid;
+  text-align: center;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  background-color: #d6e6dc;
+  font-family: 'VT323';
+  font-size: 5em;
+}
+
+a {
+  height: 20px;
+  color: #96b7aa;
+  border: none;
+  font-size: 2em;
+}
+
+a:hover {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
